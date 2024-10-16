@@ -1,1 +1,4 @@
 # java-calculator-precourse
+
+- [ ] checkList
+- 
