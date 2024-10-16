@@ -19,11 +19,12 @@ public class InputView {
     }
 
     private boolean containsCustomDelimiter(String additionInput) {
-
+        if(additionInput.length() >= 5 && additionInput.startsWith("//") && additionInput.substring(3, 5).equals("\\n")) return true;
+        return false;
     }
 
-    private String getCustomDelimiters(String additionInput) {
-
+    private Character getCustomDelimiters(String additionInput) {
+        return additionInput.charAt(2);
     }
 
     private List<Integer> getOperands(String additionInput, String delimiters) throws IllegalArgumentException {
