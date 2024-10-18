@@ -14,7 +14,6 @@ public class StringAdderController {
 
     public void run() {
 
-
     }
 
 }
