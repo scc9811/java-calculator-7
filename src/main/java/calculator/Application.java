@@ -28,5 +28,8 @@ public class Application {
             System.out.println("c = " + s.charAt(i));
         }
 
+        String s2 = "12345";
+
+
     }
 }
