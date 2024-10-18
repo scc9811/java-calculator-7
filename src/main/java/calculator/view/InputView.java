@@ -15,10 +15,6 @@ public class InputView {
         return additionInput;
     }
 
-    private void validate() {
-
-    }
-
     private boolean containsCustomDelimiter(String additionInput) {
         if(additionInput.length() >= 5 && additionInput.startsWith("//") && additionInput.substring(3, 5).equals("\\n")) return true;
         return false;
@@ -50,5 +46,4 @@ public class InputView {
         }
         return operands;
     }
-
 }
